@@ -1,0 +1,29 @@
+.todo.item{
+    width: 90%;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 0.5rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.ico{
+
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.ico:hover{
+    cursor: pointer;
+}
+.todo.item{
+    font-size: 1.6rem;
+}
+.ico2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.ico2:hover{
+    cursor: pointer;
+}
