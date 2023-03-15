@@ -1,0 +1,7 @@
+.todo_item > p {
+    background-color: rgb(93, 197, 100);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: max-content;
+    text-decoration: line-through;
+  }

@@ -1,26 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    <link rel="stylesheet" href="./css/configuracion.css">
-    <link rel="stylesheet" href="./css/ToDolist.css">
-    <link rel="stylesheet" href="./css/todo.item.css">
 
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <!-- Sección de las hojas de diseño -->
+    <link rel="stylesheet" href="./css/configuracion.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/todo.item.css">
 </head>
 <body>
     
     <div class="root">
-        <h1>ToDo o.1</h1>
-        <div class="todo item">
-            <span class="ico"> ✔ </span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quae natus voluptatum cumque sit.</p>
-            <span class="ico2">X</span>
+
+        <h1 class="titulo">ToDo 0.1</h1>
+
+        <main class="todo_list">
+            <!-- Todas las tareas -->
+        </main>
+
+        <div class="btn-todo" id="btn-todo">
+            <span>+</span>
         </div>
     </div>
 
+    <div class="modal">
+        <span class="cerrar">✖️</span>
+        <div class="caja-tados">
+            <input type="text" class="texto">
+            <div class="btn-tarea">Crear 🚀</div>    
+        </div>
+    </div>
+    
+    <script src="./js/data.js"></script>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/modal.js"></script>
 </body>
 </html>

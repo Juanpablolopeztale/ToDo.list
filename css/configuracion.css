@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
+
+:root {
+    --color-texto: rgb(45, 46, 48);
+}
+
+html, body {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
